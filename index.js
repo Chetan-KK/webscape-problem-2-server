@@ -4,9 +4,9 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 app.get("/", (req, res) => {
-  res.send("welcome to server");
+  res.send("welcome to server webscape team 2 server");
 });
-app.post("/getData", async (req, res) => {
+app.get("/getData", async (req, res) => {
   res.send("Thank you for sending us goood wishes!! ");
 });
 
